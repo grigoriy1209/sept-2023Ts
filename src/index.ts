@@ -194,24 +194,24 @@
 //     console.log(shape.perimeter());
 //
 // }
-interface IDog<Type>{
-    name:string;
-    age:number
-    box:Type
-}
-const dog1:IDog<string[]> = {
-    name:'max',
-    age:14,
-    box:['2','wesf']
-}
-const dog2:IDog<number>={
-    name:'rex',
-    age:22,
-    box:2323
-}
-const dog3:IDog<boolean>={
-    name:'rex',
-    age:22,
-    box:true
-}
-console.log(dog1, dog2, dog3);
+// interface IDog<Type>{
+//     name:string;
+//     age:number
+//     box:Type
+// }
+// const dog1:IDog<string[]> = {
+//     name:'max',
+//     age:14,
+//     box:['2','wesf']
+// }
+// const dog2:IDog<number>={
+//     name:'rex',
+//     age:22,
+//     box:2323
+// }
+// const dog3:IDog<boolean>={
+//     name:'rex',
+//     age:22,
+//     box:true
+// }
+// console.log(dog1, dog2, dog3);
